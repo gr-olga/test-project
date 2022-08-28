@@ -1,0 +1,22 @@
+.main-title {
+    font-family: 'Teko', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 400px;
+    line-height: 573px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.main-box {
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-image: url("../../images/background.png");
+    background-size: cover;
+    background-color: #d9e3e2;
+    height: 100vh;
+}
