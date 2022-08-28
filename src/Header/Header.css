@@ -16,10 +16,17 @@
     flex-direction: row;
     align-items: center;
 }
+.header-text{
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 10px;
+}
 
 .header-logo {
     width: 100px;
-    margin-bottom: 28px;
 }
 
 :root {
@@ -70,8 +77,8 @@ label .header-hamburger {
     position: absolute;
     display: grid;
     place-items: center;
-    width: 63%;
-    height: 63%;
+    width: 43%;
+    height: 43%;
 }
 
 label .header-hamburger::before, label .header-hamburger .header-hamburger-center, label .header-hamburger::after {
