@@ -69,18 +69,20 @@
 
 #menu__toggle:checked ~ .menu__btn span:nth-of-type(1) {
     transform-origin: bottom;
-    transform: rotatez(45deg) translate(1px, 10px);
+    width: 28%;
+    transform: rotatez(45deg) translate(10px, 6px);
 }
 
 #menu__toggle:checked ~ .menu__btn span:nth-of-type(2) {
     transform-origin: top;
-    transform: rotatez(-45deg)
+    transform: rotatez(-45deg);
+    width: 60%;
 }
 
 #menu__toggle:checked ~ .menu__btn span:nth-of-type(3) {
     transform-origin: bottom;
-    width: 50%;
-    transform: translate(16px, -12px) rotatez(45deg);
+    width: 30%;
+    transform: translate(18px, -15px) rotatez(45deg);
 }
 
 #menu__toggle:checked ~ .menu__box {
